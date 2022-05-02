@@ -1,0 +1,22 @@
+{
+    "name": "llyam/codewars",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LLyam\\CodeWars\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "llyam",
+            "email": "weedtest89@gmail.com"
+        }
+    ]
+}
